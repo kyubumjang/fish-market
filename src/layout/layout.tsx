@@ -1,10 +1,12 @@
-type Props = { children: JSX.Element };
+import { Outlet } from 'react-router-dom';
+import { Footer, NavigationBar } from '../components/organisms';
 
-const Layout = ({ children }: Props) => {
+const Layout = () => {
 	return (
 		<>
-			<h1>HomePage</h1>
-			<div>{children}</div>
+			<NavigationBar />
+			<Outlet />
+			<Footer />
 		</>
 	);
 };
