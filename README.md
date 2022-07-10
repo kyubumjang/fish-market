@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# 항구
+<img width="1776" alt="항구" src="https://user-images.githubusercontent.com/33307948/178143021-754b68d9-5c79-40ff-b8c1-6efda901056f.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 소개
+수산물 시장 및 항구에서 수산물을 살 때 행동 요령과 안좋은 인식을 개선하기 위한 웹페이지입니다.
 
-## Available Scripts
+## 개발 인원
+개인 프로젝트입니다.
 
-In the project directory, you can run:
+## 개발 일정
+2022.07.08 ~ 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+<br><br>
+## 개발 환경
+Language: TypeScript
+IDE: VSCode
+Style: emotion, mui
+Library:
+  - eslint-config-airbnb
+  - prettier
+  - markdown-to-jsx
+  - react-youtube
+  
+### 💪 언어 & 라이브러리
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Context API](https://img.shields.io/badge/ContextAPI-4dd0e1.svg?&style=for-the-badge&logo=React&logoColor=white)<br>
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+![Emotion](https://img.shields.io/badge/Emotion-BB6BB5.svg?style=for-the-badge&logo=emotion&logoColor=white)
 
-### `yarn build`
+### 🔧 도구
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?&style=for-the-badge&logo=ESLint&logoColor=white)<br>
+![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)<br>
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br><br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 핵심 기능
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 정확한 정보 전달
+- 관련 유투브 리스트
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 기대효과
+수산물 시장 및 항구의 나쁜 인식 개선, 계속 오르는 물가에서 정확한 정보 제공으로 신뢰성 증가를 목표로 개발하고 있습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 폴더 구조
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+추후 추가 예정
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
