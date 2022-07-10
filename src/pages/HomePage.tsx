@@ -37,17 +37,11 @@ const mdFiles = [noticePost, informationPost1, informationPost2];
 const HomePage = () => {
 	const [posts, setPosts] = useState<readonly string[]>([]);
 	const [loading, setLoading] = useState<Boolean>(false);
-	console.log('====================================');
-	console.log(mdFiles);
-	console.log('====================================');
 	useEffect(() => {
 		const fetchData = async () => {
 			const postArr = await Promise.all(
 				mdFiles.map(async (mdFile) => {
 					const text = await fetch(mdFile).then((res) => res.text());
-					console.log('====================================');
-					console.log(text);
-					console.log('====================================');
 					return text;
 				})
 			);
@@ -57,7 +51,6 @@ const HomePage = () => {
 		fetchData();
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
-	console.log(posts);
 
 	return (
 		<Box>
