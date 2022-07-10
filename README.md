@@ -15,15 +15,6 @@
 
 <br><br>
 ## 개발 환경
-Language: TypeScript
-IDE: VSCode
-Style: emotion, mui
-Library:
-  - eslint-config-airbnb
-  - prettier
-  - markdown-to-jsx
-  - react-youtube
-  
 ### 💪 언어 & 라이브러리
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -46,6 +37,12 @@ Library:
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)<br>
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
+### 추가 라이브러리
+- Library:
+  - eslint-config-airbnb
+  - markdown-to-jsx
+  - react-youtube
 
 <br><br>
 
