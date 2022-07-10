@@ -32,26 +32,24 @@ const Footer = () => {
 			}}
 		>
 			<Container maxWidth='sm'>
-				<Typography variant='body2'>
-					문의사항이 있을 시 아이콘을 눌러 연락주세요.
-				</Typography>
-				<Copyright />
+				<Box>
+					<Typography variant='body2'>
+						'항구'는 수산시장에서 더 나은 경험을 제공하기 위해 운영하는 수산물
+						종합 정보 사이트입니다.
+					</Typography>
+					<Copyright />
+				</Box>
 				<Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 					<Link href='https://www.facebook.com/kyubumJ/'>
-						<FacebookIcon
-							color='inherit'
-							sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
-						/>
+						<FacebookIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 					</Link>
 					<Link href='https://www.instagram.com/kyubum_j/'>
 						<InstagramIcon
-							color='primary'
 							sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
 						/>
 					</Link>
 					<Link href='https://www.linkedin.com/in/kyubumjang/'>
 						<LinkedInIcon
-							color='primary'
 							sx={{
 								display: { xs: 'none', md: 'flex' },
 								mr: 1,
@@ -59,10 +57,7 @@ const Footer = () => {
 						/>
 					</Link>
 					<Link href='https://github.com/kyubumJang'>
-						<GitHubIcon
-							color='primary'
-							sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
-						/>
+						<GitHubIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 					</Link>
 				</Box>
 			</Container>
