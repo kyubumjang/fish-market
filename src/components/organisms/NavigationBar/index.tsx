@@ -61,13 +61,18 @@ const NavigationBar = () => {
 
 					<Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 						{pages.map((page) => (
-							<StyledLink to={page.path}>
+							<StyledLink to={page.path} key={page.title}>
 								<Button
 									key={page.title}
 									// onClick={handleCloseNavMenu}
-									sx={{ my: 2, color: 'white', display: 'block' }}
+									sx={{
+										my: 2,
+										color: 'white',
+										display: 'block',
+										fontWeight: 'bold',
+									}}
 								>
-									<div>{page.title}</div>
+									{page.title}
 								</Button>
 							</StyledLink>
 						))}
