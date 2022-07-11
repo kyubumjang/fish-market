@@ -1,12 +1,11 @@
 import { Box, Grid } from '@mui/material';
 import FeaturedPost from '../components/molecules/FeaturedPost';
 import MainFeaturedPost from '../components/molecules/MainFeaturedPost';
-import Main from '../components/organisms/Main';
+import Main from '../components/organisms/Main/Main';
 import noticePost from '../Markdown/notice.md';
 import informationPost1 from '../Markdown/information-post1.md';
 import informationPost2 from '../Markdown/information-post2.md';
 import { useEffect, useState } from 'react';
-import { Container } from '@mui/system';
 
 const mainFeaturedPost = {
 	title: '여름에 먹으면 맛있는 어종',
@@ -36,7 +35,6 @@ const mdFiles = [noticePost, informationPost1, informationPost2];
 
 const HomePage = () => {
 	const [posts, setPosts] = useState<readonly string[]>([]);
-	const [loading, setLoading] = useState<Boolean>(false);
 	useEffect(() => {
 		const fetchData = async () => {
 			const postArr = await Promise.all(
