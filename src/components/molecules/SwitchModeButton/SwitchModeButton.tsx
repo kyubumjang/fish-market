@@ -3,7 +3,7 @@ import DarkIcon from '@mui/icons-material/Brightness4';
 import LightIcon from '@mui/icons-material/Brightness7';
 import React from 'react';
 import { ColorContext } from '../../../contexts/ColorContext';
-export const SwitchModeButton = () => {
+const SwitchModeButton = () => {
 	const theme = useTheme();
 	const colorMode = React.useContext(ColorContext);
 	return (
@@ -28,3 +28,5 @@ export const SwitchModeButton = () => {
 		</Box>
 	);
 };
+
+export default SwitchModeButton;

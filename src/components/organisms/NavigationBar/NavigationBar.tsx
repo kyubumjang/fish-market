@@ -9,8 +9,9 @@ import {
 } from '@mui/material';
 
 import AnchorIcon from '@mui/icons-material/Anchor';
-import { SwitchModeButton } from '../../molecules/SwitchModeButton';
+
 import { StyledLink } from '../../atoms';
+import SwitchModeButton from '../../molecules/SwitchModeButton';
 
 const pages = [
 	{

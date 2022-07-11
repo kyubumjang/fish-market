@@ -1,5 +1,5 @@
 import { Container, Divider, Grid, Typography } from '@mui/material';
-import Markdown from '../../molecules/MarkdownRenderer';
+import Markdown from '../../molecules/MarkdownRenderer/';
 
 interface MainProps {
 	posts: ReadonlyArray<string>;
